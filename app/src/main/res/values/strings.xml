@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Androcolector</string>
+
+    <!-- Texto en Opciones del Navigation Drawer -->
+    <string-array name="section_titles">
+        <item>Conectar</item>
+        <item>Cargar Ruta</item>
+        <item>Recolectar Datos</item>
+        <item>Mapa</item>
+        <item>Salir</item>
+    </string-array>
+
+    <!-- Iconos en Opciones del Navigation Drawer -->
+    <string-array name="sections_icons">
+        <item>@drawable/ic_conectar</item>
+        <item>@drawable/ic_cargar_ruta</item>
+        <item>@drawable/ic_recolectar_datos</item>
+        <item>@drawable/ic_ver_mapa</item>
+        <item>@drawable/ic_salir</item>
+    </string-array>
+
+    <!-- Texto en acciones del menú -->
+    <!-- <string name="action_example">Example action</string> -->
+    <string name="action_settings">Configuración</string>
+    <string name="action_configuracion">Más opciones</string>
+
+    <!-- Texto en TextViews-->
+    <string name="Usuario">Usuario</string>
+    <string name="Clave">Clave</string>
+    <string name="punto">.</string>
+    <string name="confirmar_clave">Confirmar clave</string>
+    <string name="campo_ip_servidor">Dirección IP (Sevidor)</string>
+    <string name="medidor">Medidor nro.</string>
+    <string name="cliente">Cliente</string>
+    <string name="titular">Titular</string>
+    <string name="nombre_persona">Nombre</string>
+    <string name="domicilio">Domicilio</string>
+    <string name="estado">Estado</string>
+    <string name="cargar_ruta">Haga click en el botón para cargar la ruta</string>
+
+    <!-- Textos agregados automaticamente -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Texto en Botones -->
+    <string name="boton_enviar_datos">Enviar datos</string>
+    <string name="boton_conectar">Conectar</string>
+    <string name="boton_registrarse">Registrarse</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_cargar_ruta">Cargar Ruta</string>
+
+    <!-- Texto en títulos de Actividades -->
+    <string name="title_activity_configuracion">Configuración</string>
+    <string name="title_activity_registrarse">Registrarse</string>
+
+</resources>
