@@ -7,11 +7,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 /**
  * Created by martin on 30/09/2015.
  */
-public class SessionDataHelper extends SQLiteOpenHelper{
+public class DataBaseHelper extends SQLiteOpenHelper{
 
     private String sqlCreate = "CREATE TABLE Usuarios (nombre TEXT, clave TEXT)";
 
-    public SessionDataHelper(Context contexto, String nombre,
+    public DataBaseHelper(Context contexto, String nombre,
                                 SQLiteDatabase.CursorFactory factory, int version) {
         super(contexto, nombre, factory, version);
     }
