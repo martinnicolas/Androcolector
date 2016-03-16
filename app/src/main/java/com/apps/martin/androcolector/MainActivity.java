@@ -141,7 +141,7 @@ public class MainActivity extends Activity
         EditText editText3 = (EditText) findViewById(R.id.editText3);
         String nombre = editText2.getText().toString();
         String clave = editText3.getText().toString();
-        new EnBackground().execute(nombre, clave); //Loguearse SOAP o WEB restful
+        new EnBackground().execute(nombre, clave); //Loguearse SOAP o WEB restful (Comentario de prueba)
     }
 
     public void salir(){
