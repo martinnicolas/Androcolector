@@ -25,7 +25,7 @@
     <string name="action_configuracion">Más opciones</string>
 
     <!-- Texto en TextViews-->
-    <string name="Usuario">Usuario</string>
+    <string name="Usuario">Operador</string>
     <string name="Clave">Clave</string>
     <string name="punto">.</string>
     <string name="confirmar_clave">Confirmar clave</string>
